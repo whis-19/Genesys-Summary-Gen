@@ -1,0 +1,11 @@
+streamlit
+chromadb
+sentence-transformers
+torch
+transformers
+python-dotenv
+tqdm
+numpy
+pandas
+tiktoken
+PyPDF2
