@@ -73,7 +73,7 @@ The application implements a sophisticated Retrieval-Augmented Generation pipeli
 
    ```bash
    git clone https://github.com/whis-19/Genesys-Summary-Gen.git
-   cd genesys-rag
+   cd Genesys-Summary-Gen
    ```
 
 2. **Create a virtual environment**:
