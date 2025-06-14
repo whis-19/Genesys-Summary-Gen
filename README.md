@@ -65,15 +65,15 @@ The application implements a sophisticated Retrieval-Augmented Generation pipeli
 
 - Python 3.8 or higher
 - pip package manager
-- Groq API key (get from [Groq Console](https://console.groq.com/))
+- Gemini API key (get from [GEMENI API](https://aistudio.google.com/app/u/1/apikey))
 
 ### Setup
 
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd genesys-rag
+   git clone https://github.com/whis-19/Genesys-Summary-Gen.git
+   cd Genesys-Summary-Gen
    ```
 
 2. **Create a virtual environment**:
@@ -98,7 +98,7 @@ The application implements a sophisticated Retrieval-Augmented Generation pipeli
    Create a `.env` file in the root directory:
 
    ```env
-   GROQ_API_KEY=your_groq_api_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
    ```
 
 5. **Run the application**:
@@ -110,7 +110,7 @@ The application implements a sophisticated Retrieval-Augmented Generation pipeli
 
 The application can be configured through the following parameters:
 
-- **Chunk Size**: Default 1000 characters (configurable in `document_processor.py`)
+- **Chunk Size**: Default 1000 characters (configurable in `document_processor.py`)emii
 - **Chunk Overlap**: Default 200 characters for context preservation
 - **Embedding Model**: `all-MiniLM-L6-v2` (can be changed in `embedding_manager.py`)
 - **Retrieval Count**: Top 3 most similar chunks (configurable in `rag_pipeline.py`)
